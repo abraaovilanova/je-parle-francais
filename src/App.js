@@ -98,9 +98,9 @@ function App() {
     }
   },[data])
 
-  const handleChange = (i) => {
-    inputRefs.current[i + 1].focus();
-  };
+  // const handleChange = (i) => {
+  //   inputRefs.current[i + 1].focus();
+  // };
 
   return (
     <div className="App">
